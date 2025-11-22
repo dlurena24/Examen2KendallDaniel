@@ -43,6 +43,13 @@ class MiClase:
                 return False
         return True
 
+        # Nuevo método solicitado
+    # ------------------------------
+    def Encuentra(self, lista, elemento):
+        for numero in lista:
+            if numero == elemento:
+                return True
+        return False
 
 ################################################################################################
 # Ejemplo de ejecución
