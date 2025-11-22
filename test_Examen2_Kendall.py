@@ -36,7 +36,7 @@ class TestMiClase(unittest.TestCase):
         self.assertTrue(self.objeto.VerificaListaCanciones([]))  # Lista vacía es válida (no contiene None)
 
     def test_encuentra_elemento_presente(self):
-        self.assertTrue(self.objeto.Encuentra([1, 2, 3, 4], 3))  # 3 sí está en la lista
+        self.assertTrue(self.objeto.Encuentra([1, 2, 3, 4], 30000))  # 3 sí está en la lista
 
     def test_encuentra_elemento_ausente(self):
         self.assertFalse(self.objeto.Encuentra([1, 2, 3, 4], 5))  # 5 no está en la lista
